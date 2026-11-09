@@ -1,0 +1,14 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.viralance/mcp-server",
+  "title": "Viralance",
+  "description": "Generate and edit AI videos and images, get trend reports, hooks and captions on Viralance.",
+  "websiteUrl": "https://viralance.com/features/claude-mcp",
+  "version": "1.0.2",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.viralance.com/mcp"
+    }
+  ]
+}
